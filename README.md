@@ -62,28 +62,6 @@ This project is an Android Wear application that functions as a simple stopwatch
 - **Reset Button:**  
   Tapping this button resets the stopwatch to `00:00:00`.
 
-## Demo
-
-Include screenshots showing the app in action:
-- The initial state (showing `00:00:00`)
-- The stopwatch running (showing an increasing time)
-- The stopwatch paused and ready to reset
-
-*Make sure to capture clear images of the app running on your Wear OS emulator or device.*
-
-## Deliverables & Submission
-
-- **Project ZIP File:**  
-  Export the project as a ZIP file (named `ShubhamAgrawalAssignment1.zip`) using Android Studio’s export feature.
-  
-- **Documentation:**  
-  Create a Word document (named `ShubhamAgrawalAssignment1.docx`) that includes:
-  - Screenshots of the running app.
-  - The commented Java code pasted as text.
-  
-- **Live Demo:**  
-  Be prepared to demo your application during your scheduled presentation slot.
-
 ## Contact
 
 For any questions or further assistance regarding this project, please contact:  
