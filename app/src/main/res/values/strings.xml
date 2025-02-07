@@ -1,9 +1,22 @@
 <resources>
+    <!-- Application name displayed on the launcher and in other parts of the app -->
     <string name="app_name">ShubhamAgrawalAssignment1</string>
+
+    <!-- Text label for the Start button -->
     <string name="start">Start</string>
+
+    <!-- Text label for the Stop button -->
     <string name="stop">Stop</string>
+
+    <!-- Text label for the Reset button -->
     <string name="reset">Reset</string>
+
+    <!-- Default time displayed on the stopwatch TextView -->
     <string name="default_time">00:00:00</string>
+
+    <!-- Custom theme style for the application -->
+    <!-- This style inherits from Theme.AppCompat.Light.NoActionBar which provides a light theme without an action bar -->
     <style name="Theme.ShubhamAgrawalAssignment1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- You can add customizations here, such as colors or font styles -->
     </style>
 </resources>

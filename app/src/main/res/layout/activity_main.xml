@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Root layout using ConstraintLayout to allow flexible positioning of elements -->
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -6,7 +7,14 @@
     android:layout_height="match_parent"
     android:padding="8dp">
 
-  <!-- Elapsed time TextView -->
+  <!--
+       TextView for displaying the elapsed time of the stopwatch.
+       - Width is set to 0dp to allow the view to expand to fill the horizontal constraints.
+       - Height is set to wrap_content to adjust based on the text.
+       - The default time is set using the string resource @string/default_time.
+       - Text is centered within the TextView.
+       - A bottom margin of 8dp provides spacing between this TextView and the Start button.
+  -->
   <TextView
       android:id="@+id/elapsedTimeTextView"
       android:layout_width="0dp"
@@ -19,7 +27,12 @@
       app:layout_constraintEnd_toEndOf="parent"
       android:layout_marginBottom="8dp" />
 
-  <!-- Start Button -->
+  <!--
+       Start Button to begin the stopwatch.
+       - Width is 0dp so it expands to fill the horizontal space defined by the constraints.
+       - Placed directly below the elapsedTime TextView.
+       - A top margin of 8dp provides spacing from the TextView.
+  -->
   <Button
       android:id="@+id/startButton"
       android:layout_width="0dp"
@@ -30,7 +43,12 @@
       app:layout_constraintEnd_toEndOf="parent"
       android:layout_marginTop="8dp" />
 
-  <!-- Stop Button -->
+  <!--
+       Stop Button to pause the stopwatch.
+       - Similar to the Start button, it uses 0dp width to fill the available horizontal space.
+       - Positioned directly below the Start button.
+       - A top margin of 8dp provides spacing from the Start button.
+  -->
   <Button
       android:id="@+id/stopButton"
       android:layout_width="0dp"
@@ -41,7 +59,13 @@
       app:layout_constraintEnd_toEndOf="parent"
       android:layout_marginTop="8dp" />
 
-  <!-- Reset Button -->
+  <!--
+       Reset Button to reset the stopwatch.
+       - Uses 0dp width to stretch across the parent.
+       - Positioned below the Stop button.
+       - The bottom of the button is constrained to the bottom of the parent, ensuring that the layout is evenly distributed vertically.
+       - A top margin of 8dp separates it from the Stop button.
+  -->
   <Button
       android:id="@+id/resetButton"
       android:layout_width="0dp"
